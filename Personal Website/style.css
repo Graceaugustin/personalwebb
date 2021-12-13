@@ -1,0 +1,239 @@
+@charset "utf-8";
+body{
+    background-image: url(images/banner.jpg);
+    background-repeat: no-repeat;
+    margin:0px;
+    padding:0px;
+}
+ul{
+    list-style:none;
+}
+a{
+    text-decoration: none;
+}
+section{
+    width: 100%;
+    height:95vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: #99cffc;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0,2);
+    padding: 0px 5%;
+}
+nav ul{
+    display: flex;
+}
+nav ul li a{
+    margin:30px;
+    font-family: myrid pro regular;
+    color: #505050;
+    font-size: 15px;
+    font-weight: 700;
+}
+.logo{
+    font-family: segoe;
+    color: #000000;
+    font-size: 22px;
+}
+.active{
+    font-weight: bold;
+    color: #2d2a2a;
+}
+.text-container p:nth-child(1){
+    font-family: myriad pro regular;
+    font-weight: bold;
+    color: #6d6d6d;
+    font-size: 22px;
+}
+.text-container p:nth-child(2){
+    font-family: myriad pro regular;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #1a1a1a;
+    font-size: 60px;
+}
+.text-container padding p:nth-child(3){
+    font-family: myriad pro regular;
+    color: #403e3e;
+    font-size: 30px;
+    line-height: 30px;
+}
+.text-container p{
+    line-height: 0px;
+    margin: 45px 0px 25px;
+}
+.text-container{
+    position: absolute;
+    left: 13%;
+    top: 42%;
+    transform: translate(-13%,42%);
+}
+.text-container button{
+    width: 130px;
+    height: 42px;
+    border-radius: 10px;
+    font-family: calibri;
+    font-weight: bold;
+    font-size: 14px;
+    outline: none;
+    margin: 0px 10px;
+    color: #FFFFFF;
+    background-color: #262525;
+}
+.profil-btn{
+    border: 2px solid #373636;
+    background-color:#262525 ;
+    color: #FFFFFF;
+}
+.data{
+    background-color: #0b0b0b;
+    color: #FFFFFF;
+    
+}
+button:active{
+    transform: scale(1.1);
+}
+.model{
+    height: 460px;
+    width: 460px;
+    position: absolute;
+    bottom: 40px;
+    left: 70%;
+    transform: translateX(-70%);
+
+}
+.about-container{
+    width: 80%;
+    height: 330px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12 px rgba(0,0,0,0,2);
+    display: flex;
+    margin: 7% auto 20px auto;
+    position: relative;
+    align-items: center;
+}
+.about-container img{
+    height: 250px;
+}
+.about-text{
+    width: 550px;
+}
+.about-text p:nth-child(1){
+    color: #403e3e;
+    font-family: myriad pro;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 0px;
+}
+.about-text p:nth-child(2){
+    color: #3e3d3d;
+    font-size: 13px;
+    font-family: myriad pro;
+    font-weight: bold;
+    line-height: 5px;
+}
+.about-text p:nth-child(3){
+    color: #7e7d7d;
+    font-size: 16px;
+    font-family: calibri;
+}
+.portofolio{
+    padding: 2% 10% 0px 10%;
+}
+.portofolio p:nth-child(1){
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #3e3d3d;
+    font-size: 30px;
+    line-height: 0px;
+}
+.contact-me{
+    width: 100%;
+    height: 280px;
+    background-image:url(images/Black.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact-me p{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 25px;
+}
+
+.contact-me button{
+    width: 200px;
+    height: 40px;
+    background-color: #FFFFFF;
+    font-family: brush script mt;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.box{
+    background: rgba(253, 250, 250, 0.541);
+    margin: 25px auto;
+    color: black;
+    text-align: center;
+    width: 380px;
+    height: 400px;
+    padding: 40px;
+}
+        
+.box h1{
+        font-size: 25px;
+        letter-spacing: 3.0px;
+        margin-top: 5px;
+        font-weight: 100;
+        font-weight: bold;
+    }
+.box h2{
+        margin-top: 1px;
+        font-size: 20px;
+        font-weight: 300;
+}
+.box p{
+    font-size: 15px;
+    text-align: justify;
+    margin-top: 1px;
+}
+.image{
+    margin-top: 1px;
+}
+.box>img{
+    width: 150px;
+    border-radius: 50%;
+}
+
+.box a{
+    text-align: left;
+    color: rgb(252, 1, 1);
+}
+footer {
+	color: #FFFFFF;
+    background-color: black;
+    height: 40px;
+	text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+	font-size: 16px;
+    letter-spacing: 0.5px;
+    line-height: 30px;
+ }
+
+
+
+
